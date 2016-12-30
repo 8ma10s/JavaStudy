@@ -1,14 +1,12 @@
 package practice0504.CalcArea;
 
-import java.util.Scanner;
-
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		//Generate Scanner
-		Scanner inScan = new java.util.Scanner(System.in);
+		java.util.Scanner inScan = new java.util.Scanner(System.in);
 		
 		//Ask if circle or Triangle
 		System.out.println("Which shape would you like to use to calculate the area? (Circle or Triangle)");
